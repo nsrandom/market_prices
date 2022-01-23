@@ -1,5 +1,7 @@
-import requests
+from fastapi import FastAPI
 
-response = requests.get('https://httpbin.org/ip')
+app = FastAPI()
 
-print('Your IP is {0}'.format(response.json()['origin']))
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}

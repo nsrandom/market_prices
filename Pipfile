@@ -5,7 +5,8 @@ name = "pypi"
 
 [packages]
 requests = "*"
-hug = "*"
+fastapi = "*"
+uvicorn = "standard"
 wallstreet = "*"
 pandas = "*"
 
