@@ -1,5 +1,7 @@
 ## Setup
+
 pipenv install
+
 pipenv run uvicorn market_price:app [--reload]
 
 ## API
