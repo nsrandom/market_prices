@@ -6,8 +6,12 @@ pipenv run uvicorn market_price:app [--reload]
 
 /docs (auto generated)
 
-/stock/<symbol>
-/stock/<symbol>/price
-/option/<symbol>/<option_type>/<strike>/<expiry>
-/option/<symbol>/<option_type>/<strike>/<expiry>/price
+/stock/\<symbol>
+
+/stock/\<symbol>/price
+
+/option/\<symbol>/\<option_type>/\<strike>/\<expiry>
+
+/option/\<symbol>/\<option_type>/\<strike>/\<expiry>/price
+
 /prices?tickers=A,B,C
